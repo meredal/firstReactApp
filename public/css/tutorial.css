@@ -5,26 +5,19 @@ body {
   padding: 20px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, ul, li {
   margin: 0;
   padding: 0;
 }
 
 .app-box {
-  border: 5px solid black;
+  border: 5px solid #404040;
   text-align: center;
 }
 
 .profile-info, .hobbies-info {
   margin: 10px;
-  border: 2px solid;
-}
-
-.profile-info {
-  border-color: #404040;
-}
-.hobbies-info {
-  border-color: #707070;
+  border: 2px solid #707070;
 }
 
 h1 {
@@ -36,6 +29,8 @@ h1 {
 h2 {
   color: #618685;
   font-size: 40px;
+  text-decoration: underline;
+  padding: 15px;
 }
 
 h3 {
@@ -49,4 +44,8 @@ h4 {
 
 ul {
   list-style: none;
+}
+
+img {
+  padding: 15px;
 }
